@@ -57,8 +57,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.html" />
-    <Content Include="IIFE.js" />
+    <Content Include="Create.html" />
+    <Content Include="CreateController.js" />
+    <Content Include="Default.htm" />
+    <Content Include="Delete.html" />
+    <Content Include="DeleteController.js" />
+    <Content Include="Display.html" />
+    <Content Include="DisplayController.js" />
+    <Content Include="app.js" />
+    <Content Include="Update.html" />
+    <Content Include="UpdateController.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,20 @@
+﻿<button ng-click="getallcat()">Get all categories</button>
+
+<div id="catInfo">
+    <table id="categoryOutput">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="r in categoryInfo">
+                <td>{{ r.CategoryID }}</td>
+                <td>{{ r.CategoryName }}</td>
+                <td>{{ r.Description }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
