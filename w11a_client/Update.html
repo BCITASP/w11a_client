@@ -1,0 +1,18 @@
+﻿<label for="findID">Find Category By ID:</label>
+<input id="findID" name="findID" type="text" value="" ng-model="findID" />
+<button ng-click="getbyid()">Load Info</button>
+
+<form ng-submit="update()">
+    <label for="categoryID">CategoryID:</label>
+    <input id="categoryID" name="categoryID" type="text" value="" ng-model="catID" readonly />
+    <br/>
+    <label for="categoryDescription">Category Description:</label>
+    <input id="categoryDescription" name="categoryDescription" type="text" value="" ng-model="catDescription" />
+    <br/>
+    <label for="categoryName">Category Name:</label>
+    <input id="categoryName" name="categoryName" type="text" value="" ng-model="catName"/>
+    <br/>
+    <input type="submit" value="Update"/>
+    <br/>
+    {{updatestatus}}
+</form>
